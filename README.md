@@ -21,6 +21,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 ## With webpack 5.54.0
 
 ```
+$ git reset --hard
 $ yarn add webpack@5.54.0 --dev
 $ yarn webpack
 ```
