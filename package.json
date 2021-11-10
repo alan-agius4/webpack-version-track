@@ -1,0 +1,12 @@
+{
+    "scripts": {
+        "build": "webpack",
+        "alter-package": "sed 's/foo/bar/g' ./testing-package/index.js && sed 's/2.0.1/2.0.2/g' ./testing-package/package.json",
+        "test-output": "cat dist/main.js | grep \"const symbol\""
+    },
+    "devDependencies": {
+        "webpack": "5.63.0",
+        "webpack-cli": "^4.9.1",
+        "testing-package": "link:./testing-package"
+    }
+}

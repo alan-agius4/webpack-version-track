@@ -1,0 +1,5 @@
+{
+    "name": "testing-package",
+    "module": "./index.js",
+    "version": "2.0.1"
+}
